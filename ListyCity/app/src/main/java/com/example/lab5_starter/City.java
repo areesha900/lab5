@@ -10,6 +10,9 @@ public class City implements Serializable {
     private String province;
 
     // constructor
+    public City() {
+    }
+
     public City(String name, String province) {
         this.name = name;
         this.province = province;
